@@ -1,0 +1,85 @@
+.element {
+    display: flex;
+    box-sizing: content-box;
+    margin: 0 350px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.name {
+    color: black;
+    text-transform: uppercase;
+    font-size: inherit;
+    margin: auto 20px;
+    text-align: center;
+}
+
+.color {
+    color: grey;
+    font-size: 0.7em;
+    margin: auto;
+    text-align: center;
+}
+
+.price {
+    color: red;
+    font-size: 0.7em;
+    margin: auto;
+}
+
+.btn {
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: red;
+    border: 1px solid red;
+    border-radius: 15px;
+    font-size: 0.5em;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px;
+    float: right;
+}
+
+.listItems {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.shopCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    padding: 0 400px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+.flex-element {
+    box-sizing: border-box;
+    border: 1px solid inherit;
+    border-radius: 2%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px 50px;
+}
+
+.flex-element div img {
+    display: block;
+    margin: auto;
+}
+
+.nav-btn {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+}
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons')
